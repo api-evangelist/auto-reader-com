@@ -72,15 +72,111 @@ Auto Reader provides a mobile app that turns books, manga, and PDFs into spoken 
 
 Everything profiled for Auto Reader is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/auto-reader-com/](https://apis.io/providers/auto-reader-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (20)
+
+- [OCR & Translate API](https://apis.io/apis/auto-reader-com/ocr-translate-api/) — Multilingual OCR (Arabic-first, manga-aware), translation, and vision escalation.
+- [Auto Reader Ask API](https://apis.io/apis/auto-reader-com/auto-reader-com-ask-api/) — The Ask API from Auto Reader — 1 operation(s) for ask.
+- [Auto Reader Book API](https://apis.io/apis/auto-reader-com/auto-reader-com-book-api/) — The Book API from Auto Reader — 3 operation(s) for book.
+- [Auto Reader Correct API](https://apis.io/apis/auto-reader-com/auto-reader-com-correct-api/) — The Correct API from Auto Reader — 1 operation(s) for correct.
+- [Auto Reader Data API](https://apis.io/apis/auto-reader-com/auto-reader-com-data-api/) — The Data API from Auto Reader — 1 operation(s) for data.
+- [Auto Reader Detect API](https://apis.io/apis/auto-reader-com/auto-reader-com-detect-api/) — The Detect API from Auto Reader — 2 operation(s) for detect.
+- [Auto Reader Document API](https://apis.io/apis/auto-reader-com/auto-reader-com-document-api/) — The Document API from Auto Reader — 1 operation(s) for document.
+- [Auto Reader Export API](https://apis.io/apis/auto-reader-com/auto-reader-com-export-api/) — The Export API from Auto Reader — 1 operation(s) for export.
+- [Auto Reader Extract API](https://apis.io/apis/auto-reader-com/auto-reader-com-extract-api/) — The Extract API from Auto Reader — 2 operation(s) for extract.
+- [Auto Reader Feedback API](https://apis.io/apis/auto-reader-com/auto-reader-com-feedback-api/) — The Feedback API from Auto Reader — 1 operation(s) for feedback.
+- [Auto Reader Glossary API](https://apis.io/apis/auto-reader-com/auto-reader-com-glossary-api/) — The Glossary API from Auto Reader — 1 operation(s) for glossary.
+- [Auto Reader Health API](https://apis.io/apis/auto-reader-com/auto-reader-com-health-api/) — The Health API from Auto Reader — 2 operation(s) for health.
+- [Auto Reader Internal API](https://apis.io/apis/auto-reader-com/auto-reader-com-internal-api/) — The Internal API from Auto Reader — 1 operation(s) for internal.
+- [Auto Reader Jobs API](https://apis.io/apis/auto-reader-com/auto-reader-com-jobs-api/) — The Jobs API from Auto Reader — 1 operation(s) for jobs.
+- [Auto Reader Manga API](https://apis.io/apis/auto-reader-com/auto-reader-com-manga-api/) — The Manga API from Auto Reader — 2 operation(s) for manga.
+- [Auto Reader Ocr API](https://apis.io/apis/auto-reader-com/auto-reader-com-ocr-api/) — The Ocr API from Auto Reader — 2 operation(s) for ocr.
+- [Auto Reader Ocr Translate API](https://apis.io/apis/auto-reader-com/auto-reader-com-ocr-translate-api/) — The Ocr Translate API from Auto Reader — 2 operation(s) for ocr translate.
+- [Auto Reader Reduce API](https://apis.io/apis/auto-reader-com/auto-reader-com-reduce-api/) — The Reduce API from Auto Reader — 1 operation(s) for reduce.
+- [Auto Reader Rewrite API](https://apis.io/apis/auto-reader-com/auto-reader-com-rewrite-api/) — The Rewrite API from Auto Reader — 1 operation(s) for rewrite.
+- [Auto Reader Translate API](https://apis.io/apis/auto-reader-com/auto-reader-com-translate-api/) — The Translate API from Auto Reader — 2 operation(s) for translate.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Auto Reader Com Agentic Access](https://apis.io/agentic-access/auto-reader-com/auto-reader-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Auto Reader Com Context](https://apis.io/jsonld/auto-reader-com/auto-reader-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Auto Reader API Rules](https://apis.io/rules/auto-reader-com/auto-reader-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Auto Reader Com Authentication](https://apis.io/security/auto-reader-com/auto-reader-com-authentication/)
+- [Auto Reader Com Domain Security](https://apis.io/security/auto-reader-com/auto-reader-com-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://auto-reader.com/)
+- [Documentation](https://auto-reader.com/docs)
+- [API reference](https://ocr.auto-reader.com/)
+- [Pricing](https://auto-reader.com/#pricing)
+- [Terms of service](https://auto-reader.com/eula.html)
+- [Privacy policy](https://auto-reader.com/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/auto-reader-com/](https://apis.io/providers/auto-reader-com/).
+**Kin Score 44.0** — developing · rubric 0.25.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 52.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 31.6 |
+
+**Agent readiness 35.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/auto-reader-com/](https://apis.io/providers/auto-reader-com/).
 
 ## How this profile is made
 
